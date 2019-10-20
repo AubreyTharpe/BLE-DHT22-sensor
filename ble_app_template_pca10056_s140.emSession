@@ -1,0 +1,84 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks>
+  <BookmarkItem objectName="" line="268" column="-1" path="C:/nRF5-SDK/nRF5_SDK_15.2.0_9412b96/examples/ble_peripheral/ble_app_template/pca10056/s140/ble-temp-humid/ble_ess.c" number="25" extra="#endif // NRF_MODULE_ENABLED(BLE_BAS)" color="5"/>
+  <BookmarkItem objectName="" line="51" column="-1" path="C:/nRF5-SDK/nRF5_SDK_15.2.0_9412b96/examples/ble_peripheral/ble_app_template/pca10056/s140/ble-temp-humid/ble_ess.c" number="1" extra="#if BLE_BAS_CONFIG_LOG_ENABLED" color="5"/>
+  <BookmarkItem objectName="" line="52" column="-1" path="C:/nRF5-SDK/nRF5_SDK_15.2.0_9412b96/examples/ble_peripheral/ble_app_template/pca10056/s140/ble-temp-humid/ble_ess.c" number="2" extra="#define NRF_LOG_LEVEL BLE_BAS_CONFIG_LOG_LEVEL" color="5"/>
+  <BookmarkItem objectName="" line="53" column="-1" path="C:/nRF5-SDK/nRF5_SDK_15.2.0_9412b96/examples/ble_peripheral/ble_app_template/pca10056/s140/ble-temp-humid/ble_ess.c" number="3" extra="#define NRF_LOG_INFO_COLOR BLE_BAS_CONFIG_INFO_COLOR" color="5"/>
+  <BookmarkItem objectName="" line="54" column="-1" path="C:/nRF5-SDK/nRF5_SDK_15.2.0_9412b96/examples/ble_peripheral/ble_app_template/pca10056/s140/ble-temp-humid/ble_ess.c" number="4" extra="#define NRF_LOG_DEBUG_COLOR BLE_BAS_CONFIG_DEBUG_COLOR" color="5"/>
+  <BookmarkItem objectName="" line="55" column="-1" path="C:/nRF5-SDK/nRF5_SDK_15.2.0_9412b96/examples/ble_peripheral/ble_app_template/pca10056/s140/ble-temp-humid/ble_ess.c" number="5" extra="#else // BLE_BAS_CONFIG_LOG_ENABLED" color="5"/>
+  <BookmarkItem objectName="" line="57" column="-1" path="C:/nRF5-SDK/nRF5_SDK_15.2.0_9412b96/examples/ble_peripheral/ble_app_template/pca10056/s140/ble-temp-humid/ble_ess.c" number="6" extra="#endif // BLE_BAS_CONFIG_LOG_ENABLED" color="5"/>
+  <BookmarkItem objectName="" line="67" column="-1" path="C:/nRF5-SDK/nRF5_SDK_15.2.0_9412b96/examples/ble_peripheral/ble_app_template/pca10056/s140/ble-temp-humid/ble_ess.c" number="26" extra="* @param[in] p_hrs Heart Rate Service structure." color="5"/>
+  <BookmarkItem objectName="" line="70" column="-1" path="C:/nRF5-SDK/nRF5_SDK_15.2.0_9412b96/examples/ble_peripheral/ble_app_template/pca10056/s140/ble-temp-humid/ble_ess.c" number="27" extra="static void on_connect(ble_hrs_t * p_hrs, ble_evt_t const * p_ble_evt)" color="5"/>
+  <BookmarkItem objectName="" line="72" column="-1" path="C:/nRF5-SDK/nRF5_SDK_15.2.0_9412b96/examples/ble_peripheral/ble_app_template/pca10056/s140/ble-temp-humid/ble_ess.c" number="28" extra="p_hrs->conn_handle = p_ble_evt->evt.gap_evt.conn_handle;" color="5"/>
+  <BookmarkItem objectName="" line="78" column="-1" path="C:/nRF5-SDK/nRF5_SDK_15.2.0_9412b96/examples/ble_peripheral/ble_app_template/pca10056/s140/ble-temp-humid/ble_ess.c" number="29" extra="* @param[in] p_hrs Heart Rate Service structure." color="5"/>
+  <BookmarkItem objectName="" line="81" column="-1" path="C:/nRF5-SDK/nRF5_SDK_15.2.0_9412b96/examples/ble_peripheral/ble_app_template/pca10056/s140/ble-temp-humid/ble_ess.c" number="30" extra="static void on_disconnect(ble_hrs_t * p_hrs, ble_evt_t const * p_ble_evt)" color="5"/>
+  <BookmarkItem objectName="" line="84" column="-1" path="C:/nRF5-SDK/nRF5_SDK_15.2.0_9412b96/examples/ble_peripheral/ble_app_template/pca10056/s140/ble-temp-humid/ble_ess.c" number="31" extra="p_hrs->conn_handle = BLE_CONN_HANDLE_INVALID;" color="5"/>
+  <BookmarkItem objectName="" line="89" column="-1" path="C:/nRF5-SDK/nRF5_SDK_15.2.0_9412b96/examples/ble_peripheral/ble_app_template/pca10056/s140/ble-temp-humid/ble_ess.c" number="32" extra="* @param[in] p_hrs Heart Rate Service structure." color="5"/>
+  <BookmarkItem objectName="" line="92" column="-1" path="C:/nRF5-SDK/nRF5_SDK_15.2.0_9412b96/examples/ble_peripheral/ble_app_template/pca10056/s140/ble-temp-humid/ble_ess.c" number="33" extra="static void on_hrm_cccd_write(ble_hrs_t * p_hrs, ble_gatts_evt_write_t const * p_evt_write)" color="5"/>
+  <BookmarkItem objectName="" line="97" column="-1" path="C:/nRF5-SDK/nRF5_SDK_15.2.0_9412b96/examples/ble_peripheral/ble_app_template/pca10056/s140/ble-temp-humid/ble_ess.c" number="34" extra="if (p_hrs->evt_handler != NULL)" color="5"/>
+  <BookmarkItem objectName="" line="99" column="-1" path="C:/nRF5-SDK/nRF5_SDK_15.2.0_9412b96/examples/ble_peripheral/ble_app_template/pca10056/s140/ble-temp-humid/ble_ess.c" number="35" extra="ble_hrs_evt_t evt;" color="5"/>
+  <BookmarkItem objectName="" line="103" column="-1" path="C:/nRF5-SDK/nRF5_SDK_15.2.0_9412b96/examples/ble_peripheral/ble_app_template/pca10056/s140/ble-temp-humid/ble_ess.c" number="36" extra="evt.evt_type = BLE_HRS_EVT_NOTIFICATION_ENABLED;" color="5"/>
+  <BookmarkItem objectName="" line="107" column="-1" path="C:/nRF5-SDK/nRF5_SDK_15.2.0_9412b96/examples/ble_peripheral/ble_app_template/pca10056/s140/ble-temp-humid/ble_ess.c" number="37" extra="evt.evt_type = BLE_HRS_EVT_NOTIFICATION_DISABLED;" color="5"/>
+  <BookmarkItem objectName="" line="110" column="-1" path="C:/nRF5-SDK/nRF5_SDK_15.2.0_9412b96/examples/ble_peripheral/ble_app_template/pca10056/s140/ble-temp-humid/ble_ess.c" number="38" extra="p_hrs->evt_handler(p_hrs, &amp;evt);" color="5"/>
+  <BookmarkItem objectName="" line="118" column="-1" path="C:/nRF5-SDK/nRF5_SDK_15.2.0_9412b96/examples/ble_peripheral/ble_app_template/pca10056/s140/ble-temp-humid/ble_ess.c" number="39" extra="* @param[in] p_hrs Heart Rate Service structure." color="5"/>
+  <BookmarkItem objectName="" line="121" column="-1" path="C:/nRF5-SDK/nRF5_SDK_15.2.0_9412b96/examples/ble_peripheral/ble_app_template/pca10056/s140/ble-temp-humid/ble_ess.c" number="40" extra="static void on_write(ble_hrs_t * p_hrs, ble_evt_t const * p_ble_evt)" color="5"/>
+  <BookmarkItem objectName="" line="125" column="-1" path="C:/nRF5-SDK/nRF5_SDK_15.2.0_9412b96/examples/ble_peripheral/ble_app_template/pca10056/s140/ble-temp-humid/ble_ess.c" number="41" extra="if (p_evt_write->handle == p_hrs->hrm_handles.cccd_handle)" color="5"/>
+  <BookmarkItem objectName="" line="127" column="-1" path="C:/nRF5-SDK/nRF5_SDK_15.2.0_9412b96/examples/ble_peripheral/ble_app_template/pca10056/s140/ble-temp-humid/ble_ess.c" number="42" extra="on_hrm_cccd_write(p_hrs, p_evt_write);" color="5"/>
+  <BookmarkItem objectName="" line="133" column="-1" path="C:/nRF5-SDK/nRF5_SDK_15.2.0_9412b96/examples/ble_peripheral/ble_app_template/pca10056/s140/ble-temp-humid/ble_ess.c" number="43" extra="ble_ess_t * p_hrs = (ble_ess_t *) p_context;" color="5"/>
+ </Bookmarks>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints"/>
+ <ExecutionProfileWindow/>
+ <FrameBufferWindow>
+  <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
+ </FrameBufferWindow>
+ <Memory1/>
+ <Memory2/>
+ <Memory3/>
+ <Memory4/>
+ <Project>
+  <ProjectSessionItem path="ble_app_template_pca10056_s140"/>
+  <ProjectSessionItem path="ble_app_template_pca10056_s140;ble_app_template_pca10056_s140"/>
+  <ProjectSessionItem path="ble_app_template_pca10056_s140;ble_app_template_pca10056_s140;Application"/>
+  <ProjectSessionItem path="ble_app_template_pca10056_s140;ble_app_template_pca10056_s140;BLE_Services"/>
+  <ProjectSessionItem path="ble_app_template_pca10056_s140;ble_app_template_pca10056_s140;Board Definition"/>
+  <ProjectSessionItem path="ble_app_template_pca10056_s140;ble_app_template_pca10056_s140;Board Support"/>
+  <ProjectSessionItem path="ble_app_template_pca10056_s140;ble_app_template_pca10056_s140;nRF_BLE"/>
+  <ProjectSessionItem path="ble_app_template_pca10056_s140;ble_app_template_pca10056_s140;nRF_Libraries"/>
+  <ProjectSessionItem path="ble_app_template_pca10056_s140;ble_app_template_pca10056_s140;nRF_SoftDevice"/>
+  <ProjectSessionItem path="ble_app_template_pca10056_s140;ble_app_template_pca10056_s140;Segger Startup Files"/>
+ </Project>
+ <Register1/>
+ <Register2/>
+ <Register3/>
+ <Register4/>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never"/>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="371" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../main.c" selected="0" top="359" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="71" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/sensorsim/sensorsim.c" selected="0" top="36" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="82" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/sensorsim/sensorsim.h" selected="0" top="57" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/bsp/bsp_btn_ble.c" selected="0" top="216" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="39" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/bsp/bsp.c" selected="0" top="18" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="39" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/boards/boards.c" selected="0" top="35" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="210" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/boards/boards.h" selected="0" top="200" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="64" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/boards/pca10056.h" selected="1" top="45" codecName="Default"/>
+ </Files>
+ <ARMCrossStudioWindow activeProject="ble_app_template_pca10056_s140" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Release" debugSearchFileMap="" fileDialogInitialDirectory="C:/nRF5-SDK/nRF5_SDK_15.2.0_9412b96/examples/ble_peripheral/ble_app_template/pca10056/s140/ble-temp-humid" debugSearchPath="" autoConnectCapabilities="3199"/>
+</session>
